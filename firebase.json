@@ -1,0 +1,19 @@
+{
+  "hosting": [
+    {
+      "target": "cuentas",
+      "public": "dist/cuentas",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ],
+      "rewrites": [
+        {
+          "source": "**",
+          "destination": "/index.html"
+        }
+      ]
+    }
+  ]
+}
